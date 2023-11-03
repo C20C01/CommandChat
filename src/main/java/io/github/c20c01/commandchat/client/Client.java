@@ -13,7 +13,7 @@ public class Client {
     public Client() {
         new InputHandler(this);
         OUTPUT_HANDLER = new OutputHandler();
-        System.out.println("Client started, input \"?\" for help");
+        System.out.println("Client started, input \"/?\" for help");
         System.out.println("<Press [Enter] to enter input mode>");
     }
 

@@ -4,6 +4,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
+import java.io.IOException;
 
 public class Decoder {
 
@@ -20,8 +21,8 @@ public class Decoder {
                 default -> pkg = null;
             }
             return pkg;
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        } catch (IOException e) {
+            return null;
         }
     }
 }
