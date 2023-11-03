@@ -7,8 +7,9 @@ Just trying to learn how to use these things so there are **probably** a lot of 
 
 ![img.png](img/img2.png)
 
-When you inter the input mode, the message you receive will be temporarily stored in the buffer, and it will be shown on
-the screen after you finish typing and press enter. That why you need to press enter before you input something.
+When you inter the input mode, the message you receive will be temporarily stored in the buffer, and it will be shown
+on the screen after you finish typing and press enter, which can protect your inputting message from interrupting by
+showing other messages, that why you need to press enter before you input something.
 
 ## How to use
 
