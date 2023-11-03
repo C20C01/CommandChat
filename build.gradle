@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.github.c20c01'
+version = '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+implementation 'org.jetbrains:annotations:24.0.0'
+}
+
+test {
+}
